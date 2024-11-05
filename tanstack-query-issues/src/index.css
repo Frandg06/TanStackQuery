@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply px-4 py-4 text-white bg-gray-900;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply my-4 text-2xl font-bold text-gray-300;
+}
+
+h3 {
+  @apply text-xl font-bold;
+}
+
+h4 {
+  @apply text-lg font-bold;
+}
+
+h5 {
+  @apply text-base font-bold;
+}
+
+small {
+  @apply font-thin;
+}
+
+pre {
+  @apply p-4 my-2 overflow-auto text-white bg-gray-800 rounded;
+}
+
+.btn {
+  @apply px-4 py-2 font-bold text-white transition-all bg-blue-500 border-b-4 border-blue-700 rounded hover:bg-blue-400 hover:border-blue-500;
+}
+
+.active {
+  @apply bg-blue-700 border-0 border-blue-500;
+}
+
+.selected-label {
+  @apply transition-all shadow-sm bg-slate-700;
+}
